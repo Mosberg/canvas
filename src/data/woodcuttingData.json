@@ -1,0 +1,107 @@
+{
+  "woodcuttingData": {
+    "id": 0,
+    "title": "Woodcutting",
+    "type": "Gathering",
+    "levelRange": {
+      "min": 1,
+      "max": 99
+    },
+    "experienceRange": {
+      "min": 0,
+      "max": 13034431
+    },
+    "axes": [
+      {
+        "id": 1,
+        "level": 1,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/bronze_axe.webp",
+        "logChance": 0.75,
+        "description": "A sturdy bronze axe for chopping logs.",
+        "marketPrices": {
+          "buy": 10,
+          "sell": 5
+        }
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/iron_axe.webp",
+        "logChance": 1.5,
+        "description": "A robust iron axe for efficient log chopping.",
+        "marketPrices": {
+          "buy": 20,
+          "sell": 10
+        }
+      }
+    ],
+    "trees": [
+      {
+        "id": 9,
+        "level": 1,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/tree.webp",
+        "resourceId": 15,
+        "timers": [
+          {
+            "type": "despawn",
+            "duration": 16.6
+          },
+          {
+            "type": "respawn",
+            "duration": 5.4
+          }
+        ],
+        "logChance": 1.0,
+        "description": "A common tree found in the forest."
+      },
+      {
+        "id": 10,
+        "level": 15,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/oak_tree.webp",
+        "resourceId": 16,
+        "timers": [
+          {
+            "type": "despawn",
+            "duration": 27
+          },
+          {
+            "type": "respawn",
+            "duration": 8.4
+          }
+        ],
+        "logChance": 0.8,
+        "description": "A sturdy oak tree with valuable logs."
+      }
+    ],
+    "resources": [
+      {
+        "id": 15,
+        "level": 1,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/logs.webp",
+        "experience": 25,
+        "description": "Common logs used for crafting and fuel.",
+        "marketPrices": {
+          "buy": 10,
+          "sell": 5
+        }
+      },
+      {
+        "id": 16,
+        "level": 15,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/oak_logs.webp",
+        "experience": 37.5,
+        "description": "Valuable oak logs used for advanced crafting.",
+        "marketPrices": {
+          "buy": 20,
+          "sell": 10
+        }
+      }
+    ],
+    "gui": [
+      {
+        "id": 21,
+        "imageName": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/tabs/inventory_tab.webp"
+      }
+    ]
+  }
+}

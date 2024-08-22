@@ -1,40 +1,54 @@
-// Load JSON data
-const playerData = JSON.parse(
-  localStorage.getItem("/src/data/playerData.json")
-);
-const gameData = JSON.parse(localStorage.getItem("/src/data/gameData.json"));
+// Load player data
+fetch(
+  "https://raw.githubusercontent.com/Mosberg/canvas/main/src/data/playerData.json"
+)
+  .then((response) => response.json())
+  .then((data) => {
+    const playerData = data;
+    const playerAvatarElement = document.getElementById("player-avatar");
+    const playerNameElement = document.getElementById("player-name");
+    playerAvatarElement.src = playerData.player.src;
+    playerNameElement.textContent = playerData.player.name;
 
-// Set player avatar and name
-document.getElementById("player-avatar").src = playerData.player.src;
-document.getElementById("player-name").textContent = playerData.player.name;
+    // Load game data
+    fetch(
+      "https://raw.githubusercontent.com/Mosberg/canvas/main/src/data/woodcuttingData.json"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        const gameData = data;
+        const skillIconElement = document.getElementById("skill-icon");
+        const skillLevelElement = document.getElementById("skill-level-value");
+        const skillExperienceElement = document.getElementById(
+          "skill-experience-value"
+        );
+        skillIconElement.src = gameData.src;
+        skillLevelElement.textContent = playerData.player.skills.level;
+        skillExperienceElement.textContent =
+          playerData.player.skills.experience;
 
-// Set skill icon, level, and experience
-document.getElementById("skill-icon").src = gameData.src;
-document.getElementById("skill-level-value").textContent =
-  playerData.player.skills.level;
-document.getElementById("skill-experience-value").textContent =
-  playerData.player.skills.experience;
+        // Generate axe list
+        const axeListElement = document.getElementById("axe-list");
+        gameData.items.axes.forEach((axe) => {
+          const axeListItem = document.createElement("li");
+          axeListItem.innerHTML = `<img src="${axe.src}" alt="${axe.alt}"> ${axe.title}`;
+          axeListElement.appendChild(axeListItem);
+        });
 
-// Generate axe list
-const axeList = document.getElementById("axe-list");
-gameData.items.axes.forEach((axe) => {
-  const axeListItem = document.createElement("li");
-  axeListItem.innerHTML = `<img src="${axe.src}" alt="${axe.alt}"> ${axe.title}`;
-  axeList.appendChild(axeListItem);
-});
+        // Generate tree list
+        const treeListElement = document.getElementById("tree-list");
+        gameData.objects.trees.forEach((tree) => {
+          const treeListItem = document.createElement("li");
+          treeListItem.innerHTML = `<img src="${tree.src}" alt="${tree.alt}"> ${tree.title}`;
+          treeListElement.appendChild(treeListItem);
+        });
 
-// Generate tree list
-const treeList = document.getElementById("tree-list");
-gameData.objects.trees.forEach((tree) => {
-  const treeListItem = document.createElement("li");
-  treeListItem.innerHTML = `<img src="${tree.src}" alt="${tree.alt}"> ${tree.title}`;
-  treeList.appendChild(treeListItem);
-});
-
-// Generate log list
-const logList = document.getElementById("log-list");
-gameData.resources.logs.forEach((log) => {
-  const logListItem = document.createElement("li");
-  logListItem.innerHTML = `<img src="${log.src}" alt="${log.alt}"> ${log.title}`;
-  logList.appendChild(logListItem);
-});
+        // Generate log list
+        const logListElement = document.getElementById("log-list");
+        gameData.resources.logs.forEach((log) => {
+          const logListItem = document.createElement("li");
+          logListItem.innerHTML = `<img src="${log.src}" alt="${log.alt}"> ${log.title}`;
+          logListElement.appendChild(logListItem);
+        });
+      });
+  });

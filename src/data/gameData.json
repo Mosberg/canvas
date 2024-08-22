@@ -4,6 +4,14 @@
   "title": "Woodcutting",
   "alt": "Woodcutting Icon",
   "type": "Gathering",
+  "levels": {
+    "min": 1,
+    "max": 99
+  },
+  "experience": {
+    "min": 0,
+    "max": 13034431
+  },
   "items": {
     "axes": [
       {
@@ -11,56 +19,64 @@
         "level": 1,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/bronze_axe.webp",
         "title": "Bronze Axe",
-        "alt": "Bronze Axe Tool"
+        "alt": "Bronze Axe Tool",
+        "chance": "75%"
       },
       {
         "id": 2,
         "level": 1,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/iron_axe.webp",
         "title": "Iron Axe",
-        "alt": "Iron Axe Tool"
+        "alt": "Iron Axe Tool",
+        "chance": "150%"
       },
       {
         "id": 3,
         "level": 6,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/steel_axe.webp",
         "title": "Steel Axe",
-        "alt": "Steel Axe Tool"
+        "alt": "Steel Axe Tool",
+        "chance": "200%"
       },
       {
         "id": 4,
         "level": 11,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/black_axe.webp",
         "title": "Black Axe",
-        "alt": "Black Axe Tool"
+        "alt": "Black Axe Tool",
+        "chance": "225%"
       },
       {
         "id": 5,
         "level": 21,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/mithril_axe.webp",
         "title": "Mithril Axe",
-        "alt": "Mithril Axe Tool"
+        "alt": "Mithril Axe Tool",
+        "chance": "250%"
       },
       {
         "id": 6,
         "level": 31,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/adamant_axe.webp",
         "title": "Adamant Axe",
-        "alt": "Adamant Axe Tool"
+        "alt": "Adamant Axe Tool",
+        "chance": "300%"
       },
       {
         "id": 7,
         "level": 41,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/rune_axe.webp",
         "title": "Rune Axe",
-        "alt": "Rune Axe Tool"
+        "alt": "Rune Axe Tool",
+        "chance": "350%"
       },
       {
         "id": 8,
         "level": 61,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/dragon_axe.webp",
         "title": "Dragon Axe",
-        "alt": "Dragon Axe Tool"
+        "alt": "Dragon Axe Tool",
+        "chance": "385%"
       }
     ]
   },
@@ -71,42 +87,102 @@
         "level": 1,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/tree.webp",
         "title": "Tree",
-        "alt": "Tree Object"
+        "alt": "Tree Object",
+        "resource": {
+          "id": 15,
+          "level": 1,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/logs.webp",
+          "title": "Logs"
+        },
+        "timers": {
+          "despawn": 16.6,
+          "respawn": 5.4
+        }
       },
       {
         "id": 10,
         "level": 15,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/oak_tree.webp",
         "title": "Oak Tree",
-        "alt": "Oak Tree Object"
+        "alt": "Oak Tree Object",
+        "resource": {
+          "id": 16,
+          "level": 15,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/oak_logs.webp",
+          "title": "Oak Logs"
+        },
+        "timers": {
+          "despawn": 27,
+          "respawn": 8.4
+        }
       },
       {
         "id": 11,
         "level": 30,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/willow_tree.webp",
         "title": "Willow Tree",
-        "alt": "Willow Tree Object"
+        "alt": "Willow Tree Object",
+        "resource": {
+          "id": 17,
+          "level": 30,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/willow_logs.webp",
+          "title": "Willow Logs"
+        },
+        "timers": {
+          "despawn": 30,
+          "respawn": 9
+        }
       },
       {
         "id": 12,
         "level": 45,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/maple_tree.webp",
         "title": "Maple Tree",
-        "alt": "Maple Tree Object"
+        "alt": "Maple Tree Object",
+        "resource": {
+          "id": 18,
+          "level": 45,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/maple_logs.webp",
+          "title": "Maple Logs"
+        },
+        "timers": {
+          "despawn": 60,
+          "respawn": 35.4
+        }
       },
       {
         "id": 13,
         "level": 60,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/yew_tree.webp",
         "title": "Yew Tree",
-        "alt": "Yew Tree Object"
+        "alt": "Yew Tree Object",
+        "resource": {
+          "id": 19,
+          "level": 60,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/yew_logs.webp",
+          "title": "Yew Logs"
+        },
+        "timers": {
+          "despawn": 114,
+          "respawn": 59.4
+        }
       },
       {
         "id": 14,
         "level": 75,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/magic_tree.webp",
         "title": "Magic Tree",
-        "alt": "Magic Tree Object"
+        "alt": "Magic Tree Object",
+        "resource": {
+          "id": 20,
+          "level": 75,
+          "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/magic_logs.webp",
+          "title": "Magic Logs"
+        },
+        "timers": {
+          "despawn": 234,
+          "respawn": 119
+        }
       }
     ]
   },
@@ -117,42 +193,48 @@
         "level": 1,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/logs.webp",
         "title": "Logs",
-        "alt": "Logs Resource"
+        "alt": "Logs Resource",
+        "experience": 25
       },
       {
         "id": 16,
         "level": 15,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/oak_logs.webp",
         "title": "Oak Logs",
-        "alt": "Oak Logs Resource"
+        "alt": "Oak Logs Resource",
+        "experience": 37.5
       },
       {
         "id": 17,
         "level": 30,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/willow_logs.webp",
         "title": "Willow Logs",
-        "alt": "Willow Logs Resource"
+        "alt": "Willow Logs Resource",
+        "experience": 67.5
       },
       {
         "id": 18,
         "level": 45,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/maple_logs.webp",
         "title": "Maple Logs",
-        "alt": "Maple Logs Resource"
+        "alt": "Maple Logs Resource",
+        "experience": 100
       },
       {
         "id": 19,
         "level": 60,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/yew_logs.webp",
         "title": "Yew Logs",
-        "alt": "Yew Logs Resource"
+        "alt": "Yew Logs Resource",
+        "experience": 175
       },
       {
         "id": 20,
         "level": 75,
         "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/magic_logs.webp",
         "title": "Magic Logs",
-        "alt": "Magic Logs Resource"
+        "alt": "Magic Logs Resource",
+        "experience": 250
       }
     ]
   },
