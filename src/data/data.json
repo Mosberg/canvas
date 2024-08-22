@@ -1,0 +1,169 @@
+{
+  "id": 0,
+  "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/woodcutting.webp",
+  "title": "Woodcutting",
+  "alt": "Woodcutting Icon",
+  "type": "Gathering",
+  "items": {
+    "axes": [
+      {
+        "id": 1,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/bronze_axe.webp",
+        "title": "Bronze Axe",
+        "alt": "Bronze Axe Tool"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/iron_axe.webp",
+        "title": "Iron Axe",
+        "alt": "Iron Axe Tool"
+      },
+      {
+        "id": 3,
+        "level": 6,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/steel_axe.webp",
+        "title": "Steel Axe",
+        "alt": "Steel Axe Tool"
+      },
+      {
+        "id": 4,
+        "level": 11,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/black_axe.webp",
+        "title": "Black Axe",
+        "alt": "Black Axe Tool"
+      },
+      {
+        "id": 5,
+        "level": 21,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/mithril_axe.webp",
+        "title": "Mithril Axe",
+        "alt": "Mithril Axe Tool"
+      },
+      {
+        "id": 6,
+        "level": 31,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/adamant_axe.webp",
+        "title": "Adamant Axe",
+        "alt": "Adamant Axe Tool"
+      },
+      {
+        "id": 7,
+        "level": 41,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/rune_axe.webp",
+        "title": "Rune Axe",
+        "alt": "Rune Axe Tool"
+      },
+      {
+        "id": 8,
+        "level": 61,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/dragon_axe.webp",
+        "title": "Dragon Axe",
+        "alt": "Dragon Axe Tool"
+      }
+    ]
+  },
+  "objects": {
+    "trees": [
+      {
+        "id": 9,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/tree.webp",
+        "title": "Tree",
+        "alt": "Tree Object"
+      },
+      {
+        "id": 10,
+        "level": 15,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/oak_tree.webp",
+        "title": "Oak Tree",
+        "alt": "Oak Tree Object"
+      },
+      {
+        "id": 11,
+        "level": 30,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/willow_tree.webp",
+        "title": "Willow Tree",
+        "alt": "Willow Tree Object"
+      },
+      {
+        "id": 12,
+        "level": 45,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/maple_tree.webp",
+        "title": "Maple Tree",
+        "alt": "Maple Tree Object"
+      },
+      {
+        "id": 13,
+        "level": 60,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/yew_tree.webp",
+        "title": "Yew Tree",
+        "alt": "Yew Tree Object"
+      },
+      {
+        "id": 14,
+        "level": 75,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/magic_tree.webp",
+        "title": "Magic Tree",
+        "alt": "Magic Tree Object"
+      }
+    ]
+  },
+  "resources": {
+    "logs": [
+      {
+        "id": 15,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/logs.webp",
+        "title": "Logs",
+        "alt": "Logs Resource"
+      },
+      {
+        "id": 16,
+        "level": 15,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/oak_logs.webp",
+        "title": "Oak Logs",
+        "alt": "Oak Logs Resource"
+      },
+      {
+        "id": 17,
+        "level": 30,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/willow_logs.webp",
+        "title": "Willow Logs",
+        "alt": "Willow Logs Resource"
+      },
+      {
+        "id": 18,
+        "level": 45,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/maple_logs.webp",
+        "title": "Maple Logs",
+        "alt": "Maple Logs Resource"
+      },
+      {
+        "id": 19,
+        "level": 60,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/yew_logs.webp",
+        "title": "Yew Logs",
+        "alt": "Yew Logs Resource"
+      },
+      {
+        "id": 20,
+        "level": 75,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/resources/logs/magic_logs.webp",
+        "title": "Magic Logs",
+        "alt": "Magic Logs Resource"
+      }
+    ]
+  },
+  "gui": {
+    "tabs": [
+      {
+        "id": 21,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/tabs/inventory_tab.webp",
+        "title": "Inventory",
+        "alt": "Inventory GUI"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "player": {
+    "id": 0,
+    "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/blondeBear/blondeBear.webp",
+    "name": "Mosberg",
+    "skills": {
+      "id": 0,
+      "title": "Woodcutting",
+      "level": 1,
+      "experience": 0
+    },
+    "type": "Player"
+  }
+}
