@@ -1,0 +1,120 @@
+{
+  "Tools": {
+    "Axes": [
+      {
+        "id": 1,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/bronze_axe.webp",
+        "title": "Bronze Axe",
+        "alt": "Bronze Axe Tool"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/iron_axe.webp",
+        "title": "Iron Axe",
+        "alt": "Iron Axe Tool"
+      },
+      {
+        "id": 3,
+        "level": 6,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/steel_axe.webp",
+        "title": "Steel Axe",
+        "alt": "Steel Axe Tool"
+      },
+      {
+        "id": 4,
+        "level": 11,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/black_axe.webp",
+        "title": "Black Axe",
+        "alt": "Black Axe Tool"
+      },
+      {
+        "id": 5,
+        "level": 21,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/mithril_axe.webp",
+        "title": "Mithril Axe",
+        "alt": "Mithril Axe Tool"
+      },
+      {
+        "id": 6,
+        "level": 31,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/adamant_axe.webp",
+        "title": "Adamant Axe",
+        "alt": "Adamant Axe Tool"
+      },
+      {
+        "id": 7,
+        "level": 41,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/rune_axe.webp",
+        "title": "Rune Axe",
+        "alt": "Rune Axe Tool"
+      },
+      {
+        "id": 8,
+        "level": 61,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/axes/dragon_axe.webp",
+        "title": "Dragon Axe",
+        "alt": "Dragon Axe Tool"
+      }
+    ],
+    "Pickaxes": [
+      {
+        "id": 9,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/bronze_pickaxe.webp",
+        "title": "Bronze Pickaxe",
+        "alt": "Bronze Pickaxe Tool"
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/iron_pickaxe.webp",
+        "title": "Iron Pickaxe",
+        "alt": "Iron Pickaxe Tool"
+      },
+      {
+        "id": 11,
+        "level": 6,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/steel_pickaxe.webp",
+        "title": "Steel Pickaxe",
+        "alt": "Steel Pickaxe Tool"
+      },
+      {
+        "id": 12,
+        "level": 11,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/black_pickaxe.webp",
+        "title": "Black Pickaxe",
+        "alt": "Black Pickaxe Tool"
+      },
+      {
+        "id": 13,
+        "level": 21,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/mithril_pickaxe.webp",
+        "title": "Mithril Pickaxe",
+        "alt": "Mithril Pickaxe Tool"
+      },
+      {
+        "id": 14,
+        "level": 31,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/adamant_pickaxe.webp",
+        "title": "Adamant Pickaxe",
+        "alt": "Adamant Pickaxe Tool"
+      },
+      {
+        "id": 15,
+        "level": 41,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/rune_pickaxe.webp",
+        "title": "Rune Pickaxe",
+        "alt": "Rune Pickaxe Tool"
+      },
+      {
+        "id": 16,
+        "level": 61,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/tools/pickaxes/dragon_pickaxe.webp",
+        "title": "Dragon Pickaxe",
+        "alt": "Dragon Pickaxe Tool"
+      }
+    ]
+  }
+}

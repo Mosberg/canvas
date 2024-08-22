@@ -1,0 +1,165 @@
+{
+  "Icons": [
+    {
+      "id": 47,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/attack.webp",
+      "title": "Attack",
+      "alt": "Attack Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 48,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/defence.webp",
+      "title": "Defence",
+      "alt": "Defence Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 49,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/strength.webp",
+      "title": "Strength",
+      "alt": "Strength Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 50,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/ranged.webp",
+      "title": "Ranged",
+      "alt": "Ranged Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 51,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/magic.webp",
+      "title": "Magic",
+      "alt": "Magic Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 52,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/farming.webp",
+      "title": "Farming",
+      "alt": "Farming Icon",
+      "type": "Gathering"
+    },
+    {
+      "id": 53,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/fishing.webp",
+      "title": "Fishing",
+      "alt": "Fishing Icon",
+      "type": "Gathering"
+    },
+    {
+      "id": 54,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/hunter.webp",
+      "title": "Hunter",
+      "alt": "Hunter Icon",
+      "type": "Gathering"
+    },
+    {
+      "id": 55,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/mining.webp",
+      "title": "Mining",
+      "alt": "Mining Icon",
+      "type": "Gathering"
+    },
+    {
+      "id": 56,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/woodcutting.webp",
+      "title": "Woodcutting",
+      "alt": "Woodcutting Icon",
+      "type": "Gathering"
+    },
+    {
+      "id": 57,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/cooking.webp",
+      "title": "Cooking",
+      "alt": "Cooking Icon",
+      "type": "Production"
+    },
+    {
+      "id": 58,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/crafting.webp",
+      "title": "Crafting",
+      "alt": "Crafting Icon",
+      "type": "Production"
+    },
+    {
+      "id": 59,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/fletching.webp",
+      "title": "Fletching",
+      "alt": "Fletching Icon",
+      "type": "Production"
+    },
+    {
+      "id": 60,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/herblore.webp",
+      "title": "Herblore",
+      "alt": "Herblore Icon",
+      "type": "Production"
+    },
+    {
+      "id": 61,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/runecraft.webp",
+      "title": "Runecraft",
+      "alt": "Runecraft Icon",
+      "type": "Production"
+    },
+    {
+      "id": 62,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/smithing.webp",
+      "title": "Smithing",
+      "alt": "Smithing Icon",
+      "type": "Production"
+    },
+    {
+      "id": 63,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/agility.webp",
+      "title": "Agility",
+      "alt": "Agility Icon",
+      "type": "Utility"
+    },
+    {
+      "id": 64,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/construction.webp",
+      "title": "Construction",
+      "alt": "Construction Icon",
+      "type": "Utility"
+    },
+    {
+      "id": 65,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/firemaking.webp",
+      "title": "Firemaking",
+      "alt": "Firemaking Icon",
+      "type": "Utility"
+    },
+    {
+      "id": 66,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/slayer.webp",
+      "title": "Slayer",
+      "alt": "Slayer Icon",
+      "type": "Utility"
+    },
+    {
+      "id": 67,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/thieving.webp",
+      "title": "Thieving",
+      "alt": "Thieving Icon",
+      "type": "Utility"
+    },
+    {
+      "id": 68,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/hitpoints.webp",
+      "title": "Hitpoints",
+      "alt": "Hitpoints Icon",
+      "type": "Combat"
+    },
+    {
+      "id": 69,
+      "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/gui/skills/prayer.webp",
+      "title": "Prayer",
+      "alt": "Prayer Icon",
+      "type": "Combat"
+    }
+  ]
+}

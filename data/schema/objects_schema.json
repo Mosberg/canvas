@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Objects": {
+      "type": "object",
+      "properties": {
+        "Trees": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "level": { "type": "integer" },
+              "src": { "type": "string" },
+              "title": { "type": "string" },
+              "alt": { "type": "string" }
+            },
+            "required": ["id", "level", "src", "title", "alt"]
+          }
+        },
+        "Rocks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "level": { "type": "integer" },
+              "src": { "type": "string" },
+              "title": { "type": "string" },
+              "alt": { "type": "string" }
+            },
+            "required": ["id", "level", "src", "title", "alt"]
+          }
+        }
+      },
+      "required": ["Trees", "Rocks"]
+    },
+    "required": ["Objects"]
+  }
+}

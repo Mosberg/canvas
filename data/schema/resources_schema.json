@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Resources": {
+      "type": "object",
+      "properties": {
+        "Logs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "level": { "type": "integer" },
+              "src": { "type": "string" },
+              "title": { "type": "string" },
+              "alt": { "type": "string" }
+            },
+            "required": ["id", "level", "src", "title", "alt"]
+          }
+        },
+        "Ores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "level": { "type": "integer" },
+              "src": { "type": "string" },
+              "title": { "type": "string" },
+              "alt": { "type": "string" }
+            },
+            "required": ["id", "level", "src", "title", "alt"]
+          }
+        }
+      },
+      "required": ["Logs", "Ores"]
+    },
+    "required": ["Resources"]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Objects": {
+    "Trees": [
+      {
+        "id": 17,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/tree.webp",
+        "title": "Tree",
+        "alt": "Tree Object"
+      },
+      {
+        "id": 18,
+        "level": 15,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/oak_tree.webp",
+        "title": "Oak Tree",
+        "alt": "Oak Tree Object"
+      },
+      {
+        "id": 19,
+        "level": 30,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/willow_tree.webp",
+        "title": "Willow Tree",
+        "alt": "Willow Tree Object"
+      },
+      {
+        "id": 20,
+        "level": 45,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/maple_tree.webp",
+        "title": "Maple Tree",
+        "alt": "Maple Tree Object"
+      },
+      {
+        "id": 21,
+        "level": 60,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/yew_tree.webp",
+        "title": "Yew Tree",
+        "alt": "Yew Tree Object"
+      },
+      {
+        "id": 22,
+        "level": 75,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/trees/magic_tree.webp",
+        "title": "Magic Tree",
+        "alt": "Magic Tree Object"
+      }
+    ],
+    "Rocks": [
+      {
+        "id": 23,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/copper_rocks.webp",
+        "title": "Copper Rocks",
+        "alt": "Copper Rocks Object"
+      },
+      {
+        "id": 24,
+        "level": 1,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/tin_rocks.webp",
+        "title": "Tin Rocks",
+        "alt": "Tin Rocks Object"
+      },
+      {
+        "id": 25,
+        "level": 15,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/iron_rocks.webp",
+        "title": "Iron Rocks",
+        "alt": "Iron Rocks Object"
+      },
+      {
+        "id": 26,
+        "level": 20,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/silver_rocks.webp",
+        "title": "Silver Rocks",
+        "alt": "Silver Rocks Object"
+      },
+      {
+        "id": 27,
+        "level": 30,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/coal_rocks.webp",
+        "title": "Coal Rocks",
+        "alt": "Coal Rocks Object"
+      },
+      {
+        "id": 28,
+        "level": 40,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/gold_rocks.webp",
+        "title": "Gold Rocks",
+        "alt": "Gold Rocks Object"
+      },
+      {
+        "id": 29,
+        "level": 55,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/mithril_rocks.webp",
+        "title": "Mithril Rocks",
+        "alt": "Mithril Rocks Object"
+      },
+      {
+        "id": 30,
+        "level": 70,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/adamantite_rocks.webp",
+        "title": "Adamantite Rocks",
+        "alt": "Adamantite Rocks Object"
+      },
+      {
+        "id": 31,
+        "level": 85,
+        "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/game/objects/rocks/runite_rocks.webp",
+        "title": "Runite Rocks",
+        "alt": "Runite Rocks Object"
+      }
+    ]
+  }
+}

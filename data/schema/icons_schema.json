@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Icons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "src": { "type": "string" },
+          "title": { "type": "string" },
+          "alt": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["Combat", "Gathering", "Production", "Utility"]
+          }
+        },
+        "required": ["id", "src", "title", "alt", "type"]
+      }
+    },
+    "required": ["Icons"]
+  }
+}
