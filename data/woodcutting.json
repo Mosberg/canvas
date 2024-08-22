@@ -1,5 +1,5 @@
 {
-  "woodcuttingData": {
+  "woodcutting_data": {
     "id": 0,
     "title": "Woodcutting",
     "type": "Gathering",
@@ -110,5 +110,6 @@
         "alt": "Inventory GUI"
       }
     ]
-  }
+  },
+  "export": "woodcutting_data"
 }

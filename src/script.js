@@ -1,7 +1,5 @@
 // Load player data
-fetch(
-  "https://raw.githubusercontent.com/Mosberg/canvas/main/src/data/playerData.json"
-)
+fetch("/src/data/playerData.json")
   .then((response) => response.json())
   .then((data) => {
     const playerData = data;
@@ -11,9 +9,7 @@ fetch(
     playerNameElement.textContent = playerData.player.name;
 
     // Load game data
-    fetch(
-      "https://raw.githubusercontent.com/Mosberg/canvas/main/src/data/woodcuttingData.json"
-    )
+    fetch("/src/data/woodcuttingData.json")
       .then((response) => response.json())
       .then((data) => {
         const gameData = data;

@@ -1,0 +1,30 @@
+{
+  "character_data": {
+    "id": 0,
+    "src": "https://raw.githubusercontent.com/Mosberg/assets/main/images/WEBP/blondeBear/blondeBear.webp",
+    "name": "Mosberg",
+    "skills": [
+      {
+        "id": 0,
+        "title": "Woodcutting",
+        "level": 1,
+        "experience": 0
+      }
+    ],
+    "inventory": {
+      "currency": {
+        "gold": 0
+      },
+      "woodcuttingResources": {
+        "logs": 0,
+        "oak_logs": 0,
+        "willow_logs": 0,
+        "maple_logs": 0,
+        "yew_logs": 0,
+        "magic_logs": 0
+      }
+    },
+    "type": "Player"
+  },
+  "export": "character_data"
+}
