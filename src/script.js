@@ -1,6 +1,8 @@
 // Load JSON data
-const playerData = JSON.parse(localStorage.getItem("data/playerData"));
-const gameData = JSON.parse(localStorage.getItem("data/gameData"));
+const playerData = JSON.parse(
+  localStorage.getItem("/src/data/playerData.json")
+);
+const gameData = JSON.parse(localStorage.getItem("/src/data/gameData.json"));
 
 // Set player avatar and name
 document.getElementById("player-avatar").src = playerData.player.src;

@@ -9,6 +9,9 @@ header {
   color: #fff;
   padding: 1em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header img {
